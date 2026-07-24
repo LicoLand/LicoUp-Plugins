@@ -1,0 +1,43 @@
+{
+  "name": "licoarc-for-codex",
+  "version": "0.1.0",
+  "description": "Independent Codex sub-agent bridge in the retained LicoArc plugin namespace.",
+  "author": {
+    "name": "LicoLand",
+    "email": "opensource@licomesh.com",
+    "url": "https://lico.land"
+  },
+  "homepage": "https://github.com/LicoLand/LicoArc-Plugins/tree/main/licoarc-for-codex",
+  "repository": "https://github.com/LicoLand/LicoArc-Plugins",
+  "license": "MIT",
+  "keywords": [
+    "lico-arc",
+    "licoarc",
+    "subagent",
+    "deepseek",
+    "model-forwarding",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Lico Arc Sub-agent",
+    "shortDescription": "Delegate work to Lico Arc providers without editing Codex models",
+    "longDescription": "Spawn async Lico Arc sub-agent jobs (default DeepSeek V4 Flash via Lico Arc model-forwarding profiles), poll or await completion, and keep Codex model provider / base_url / original model config untouched.",
+    "developerName": "LicoLand",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://lico.land",
+    "defaultPrompt": [
+      "Use the Lico Arc sub-agent to draft a concise technical summary with DeepSeek, then return the result here.",
+      "Delegate a bounded research subtask to Lico Arc and await the job without changing my Codex model settings."
+    ],
+    "brandColor": "#0B3D2E",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "screenshots": []
+  }
+}

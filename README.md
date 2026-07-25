@@ -41,3 +41,10 @@ codex plugin marketplace add .
 - [Meshrix](https://meshrix.io): agent behavior governance platform
 - [LicoUp](https://licoup.com): human-agent collaboration client
 - [Fabrigent / LicoArc](https://licoarc.com): federation protocol and governance authority
+
+## Version governance
+
+This repository is currently classified as inactive for product releases.
+The structured authority and generated status are
+[`docs/releases/plan.json`](docs/releases/plan.json) and
+[`docs/releases/README.md`](docs/releases/README.md).

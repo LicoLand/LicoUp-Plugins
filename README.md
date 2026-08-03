@@ -51,3 +51,9 @@ or confer Lico Arc Protocol certification.
 - [Ubiquitous language](CONTEXT.md)
 - [Documentation index](docs/README.md)
 - [Current five-dimension status](docs/STATUS.md)
+
+## Version governance
+
+The structured release authority and generated status are
+[`docs/releases/plan.json`](docs/releases/plan.json) and
+[`docs/releases/README.md`](docs/releases/README.md).

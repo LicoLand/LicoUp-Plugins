@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LicoLand/.github/main/schemas/release-plan.schema.json",
+  "schemaVersion": 2,
+  "repository": "LicoLand/LicoUp-Plugins",
+  "profile": "inactive",
+  "currentVersion": null,
+  "versionSources": [],
+  "changelog": null,
+  "nextRelease": null,
+  "releases": [],
+  "components": []
+}

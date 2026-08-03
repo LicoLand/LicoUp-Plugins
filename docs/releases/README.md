@@ -2,12 +2,26 @@
 # Release status
 
 - Repository: `LicoLand/LicoUp-Plugins`
-- Profile: `inactive`
+- Profile: `semver`
 - Current version: `not versioned`
 
 ## Next release
 
-No release is currently planned.
+- Version: `0.1.0`
+- Classification: `initial`
+- Status: `planned`
+- Target date: `not set`
+- Integration branch: `main`
+- Progress: `0/1` accepted (`0%`)
+
+| ID | Type | Feature | Status | Risk | Pull request | Depends on | Evidence |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| codex-local-subagent-delegation | capability | Expose LicoUp local subordinate agents as a Codex plugin | planned | medium | — | — | — |
+
+### Blockers
+
+- The implementation feature has not been merged and independently accepted.
+- No immutable source tag or GitHub Release exists.
 
 ## Release history
 

@@ -2,11 +2,38 @@
   "$schema": "https://raw.githubusercontent.com/LicoLand/.github/main/schemas/release-plan.schema.json",
   "schemaVersion": 2,
   "repository": "LicoLand/LicoUp-Plugins",
-  "profile": "inactive",
+  "profile": "semver",
   "currentVersion": null,
   "versionSources": [],
-  "changelog": null,
-  "nextRelease": null,
+  "changelog": "CHANGELOG.md",
+  "nextRelease": {
+    "version": "0.1.0",
+    "classification": "initial",
+    "status": "planned",
+    "targetDate": null,
+    "integrationBranch": "main",
+    "features": [
+      {
+        "id": "codex-local-subagent-delegation",
+        "type": "capability",
+        "title": "Expose LicoUp local subordinate agents as a Codex plugin",
+        "status": "planned",
+        "pullRequest": null,
+        "dependsOn": [],
+        "risk": "medium",
+        "acceptance": [
+          "The repository publishes one valid lico-up-codex marketplace package at 0.1.0 and removes the retired LicoArc compatibility plugin.",
+          "The plugin launches the installed LicoUp companion runtime through the public Subagent MCP contract and exposes list, probe, delegate, continue, and cancel tools in a real MCP handshake.",
+          "Focused tests, catalog consistency, repository privacy scanning, version governance, and the independent release audit pass without publishing local paths, credentials, account data, or conversation content."
+        ],
+        "evidence": []
+      }
+    ],
+    "blockers": [
+      "The implementation feature has not been merged and independently accepted.",
+      "No immutable source tag or GitHub Release exists."
+    ]
+  },
   "releases": [],
   "components": []
 }

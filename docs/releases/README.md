@@ -16,7 +16,7 @@
 
 | ID | Type | Feature | Status | Risk | Pull request | Depends on | Evidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| codex-local-subagent-delegation | capability | Expose LicoUp local subordinate agents as a Codex plugin | planned | medium | — | — | — |
+| codex-local-subagent-delegation | capability | Expose LicoUp local subordinate agents as a Codex plugin | active | medium | [PR](https://github.com/LicoLand/LicoUp-Plugins/pull/6) | — | — |
 
 ### Blockers
 

@@ -28,8 +28,8 @@
         "id": "codex-local-subagent-delegation",
         "type": "capability",
         "title": "Expose LicoUp local subordinate agents as a Codex plugin",
-        "status": "planned",
-        "pullRequest": null,
+        "status": "active",
+        "pullRequest": "https://github.com/LicoLand/LicoUp-Plugins/pull/6",
         "dependsOn": [],
         "risk": "medium",
         "acceptance": [

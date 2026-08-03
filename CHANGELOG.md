@@ -2,6 +2,8 @@
 
 All notable changes to LicoUp Plugins are recorded here.
 
-## Unreleased
+## 0.1.0 - 2026-08-03
 
-- Plan the initial stable `lico-up-codex` integration.
+- Add the stable `lico-up-codex` integration for local LicoUp subordinate
+  agents.
+- Remove the retired LicoArc compatibility plugin and namespace.

@@ -1,0 +1,39 @@
+{
+  "name": "lico-up-codex",
+  "version": "0.1.0",
+  "description": "Delegate Codex work to other local agents through LicoUp.",
+  "author": {
+    "name": "LicoLand",
+    "url": "https://github.com/LicoLand"
+  },
+  "homepage": "https://github.com/LicoLand/LicoUp-Plugins/tree/main/plugins/lico-up-codex",
+  "repository": "https://github.com/LicoLand/LicoUp-Plugins",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "licoup",
+    "subagents",
+    "delegation",
+    "local-agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LicoUp Subagents",
+    "shortDescription": "Delegate work to local agents through LicoUp.",
+    "longDescription": "Discover local agents, delegate bounded tasks, continue their exact conversations, and receive private local handoffs through LicoUp's native conversation adapters.",
+    "developerName": "LicoLand",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/LicoLand/LicoUp-Plugins",
+    "defaultPrompt": [
+      "List the local LicoUp agents available for this task.",
+      "Delegate a bounded subtask to the best local agent.",
+      "Continue the selected subordinate conversation."
+    ],
+    "brandColor": "#FFF200"
+  },
+  "mcpServers": "./.mcp.json"
+}

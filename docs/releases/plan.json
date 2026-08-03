@@ -4,7 +4,18 @@
   "repository": "LicoLand/LicoUp-Plugins",
   "profile": "semver",
   "currentVersion": null,
-  "versionSources": [],
+  "versionSources": [
+    {
+      "format": "json",
+      "path": "plugins/lico-up-codex/.codex-plugin/plugin.json",
+      "pointer": "/version"
+    },
+    {
+      "format": "json",
+      "path": "plugins/lico-up-codex/package.json",
+      "pointer": "/version"
+    }
+  ],
   "changelog": "CHANGELOG.md",
   "nextRelease": {
     "version": "0.1.0",
@@ -17,8 +28,8 @@
         "id": "codex-local-subagent-delegation",
         "type": "capability",
         "title": "Expose LicoUp local subordinate agents as a Codex plugin",
-        "status": "planned",
-        "pullRequest": null,
+        "status": "active",
+        "pullRequest": "https://github.com/LicoLand/LicoUp-Plugins/pull/6",
         "dependsOn": [],
         "risk": "medium",
         "acceptance": [

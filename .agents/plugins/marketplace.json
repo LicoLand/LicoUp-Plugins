@@ -1,20 +1,20 @@
 {
-  "name": "licoarc-plugins",
+  "name": "licoup-plugins",
   "interface": {
-    "displayName": "LicoArc Independent Plugins"
+    "displayName": "LicoUp Plugins"
   },
   "plugins": [
     {
-      "name": "licoarc-for-codex",
+      "name": "lico-up-codex",
       "source": {
         "source": "local",
-        "path": "./licoarc-for-codex"
+        "path": "./plugins/lico-up-codex"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools"
+      "category": "Productivity"
     }
   ]
 }

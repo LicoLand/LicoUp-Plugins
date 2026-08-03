@@ -1,6 +1,6 @@
 {
   "name": "lico-up-codex",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0",
   "description": "Delegate Codex work to other local agents through LicoUp.",
   "author": {
     "name": "LicoLand",

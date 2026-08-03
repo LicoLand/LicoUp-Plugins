@@ -4,7 +4,18 @@
   "repository": "LicoLand/LicoUp-Plugins",
   "profile": "semver",
   "currentVersion": null,
-  "versionSources": [],
+  "versionSources": [
+    {
+      "format": "json",
+      "path": "plugins/lico-up-codex/.codex-plugin/plugin.json",
+      "pointer": "/version"
+    },
+    {
+      "format": "json",
+      "path": "plugins/lico-up-codex/package.json",
+      "pointer": "/version"
+    }
+  ],
   "changelog": "CHANGELOG.md",
   "nextRelease": {
     "version": "0.1.0",

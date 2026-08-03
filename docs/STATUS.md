@@ -11,7 +11,7 @@ security and state authority.
 
 ## Implementation
 
-- The marketplace contains `lico-up-codex` version `0.1.0-alpha`.
+- The marketplace contains `lico-up-codex` version `0.1.0`.
 - The plugin provides a Codex skill, MCP declaration, bounded cross-platform
   companion-runtime resolver, package metadata, license, and focused tests.
 - It consumes the public LicoUp Subagent MCP contract and does not copy the
@@ -27,12 +27,12 @@ certify every subordinate agent or model provider discovered by LicoUp.
 
 ## Release
 
-`0.1.0-alpha` is the planned first GitHub source release. It is not published
+`0.1.0` is the planned first GitHub source release. It is not published
 until the corresponding immutable tag and GitHub Release exist. Catalog
 presence, source availability, and publication remain separate facts.
 
 ## Support
 
-`lico-up-codex` is an alpha integration for Codex installations with local
+`lico-up-codex` is an initial integration for Codex installations with local
 plugin support, Node.js 20 or newer, and a current LicoUp companion runtime.
 Individual agent availability remains a runtime fact reported by LicoUp.

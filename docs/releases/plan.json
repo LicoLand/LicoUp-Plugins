@@ -20,7 +20,7 @@
   "nextRelease": {
     "version": "0.1.0",
     "classification": "initial",
-    "status": "planned",
+    "status": "ready",
     "targetDate": null,
     "integrationBranch": "main",
     "features": [
@@ -28,22 +28,24 @@
         "id": "codex-local-subagent-delegation",
         "type": "capability",
         "title": "Expose LicoUp local subordinate agents as a Codex plugin",
-        "status": "active",
+        "status": "accepted",
         "pullRequest": "https://github.com/LicoLand/LicoUp-Plugins/pull/6",
         "dependsOn": [],
         "risk": "medium",
         "acceptance": [
-          "The repository publishes one valid lico-up-codex marketplace package at 0.1.0 and removes the retired LicoArc compatibility plugin.",
+          "The repository contains one valid lico-up-codex marketplace package at 0.1.0 and removes the retired LicoArc compatibility plugin.",
           "The plugin launches the installed LicoUp companion runtime through the public Subagent MCP contract and exposes list, probe, delegate, continue, and cancel tools in a real MCP handshake.",
           "Focused tests, catalog consistency, repository privacy scanning, version governance, and the independent release audit pass without publishing local paths, credentials, account data, or conversation content."
         ],
-        "evidence": []
+        "evidence": [
+          "Implementation merged: https://github.com/LicoLand/LicoUp-Plugins/pull/6",
+          "Version governance passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790346151",
+          "Independent release audit passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790376902",
+          "Focused verification passed: manifest validation, four runtime tests, five-tool MCP handshake, catalog consistency, and repository privacy workflow."
+        ]
       }
     ],
-    "blockers": [
-      "The implementation feature has not been merged and independently accepted.",
-      "No immutable source tag or GitHub Release exists."
-    ]
+    "blockers": []
   },
   "releases": [],
   "components": []

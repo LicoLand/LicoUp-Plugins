@@ -27,9 +27,9 @@ certify every subordinate agent or model provider discovered by LicoUp.
 
 ## Release
 
-`0.1.0` is the planned first GitHub source release. It is not published
-until the corresponding immutable tag and GitHub Release exist. Catalog
-presence, source availability, and publication remain separate facts.
+`0.1.0` is published from the immutable `v0.1.0` source tag through the
+[GitHub Release](https://github.com/LicoLand/LicoUp-Plugins/releases/tag/v0.1.0).
+Catalog presence, source availability, and publication remain separate facts.
 
 ## Support
 

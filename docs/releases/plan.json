@@ -3,7 +3,7 @@
   "schemaVersion": 2,
   "repository": "LicoLand/LicoUp-Plugins",
   "profile": "semver",
-  "currentVersion": null,
+  "currentVersion": "0.1.0",
   "versionSources": [
     {
       "format": "json",
@@ -17,36 +17,40 @@
     }
   ],
   "changelog": "CHANGELOG.md",
-  "nextRelease": {
-    "version": "0.1.0",
-    "classification": "initial",
-    "status": "ready",
-    "targetDate": null,
-    "integrationBranch": "main",
-    "features": [
-      {
-        "id": "codex-local-subagent-delegation",
-        "type": "capability",
-        "title": "Expose LicoUp local subordinate agents as a Codex plugin",
-        "status": "accepted",
-        "pullRequest": "https://github.com/LicoLand/LicoUp-Plugins/pull/6",
-        "dependsOn": [],
-        "risk": "medium",
-        "acceptance": [
-          "The repository contains one valid lico-up-codex marketplace package at 0.1.0 and removes the retired LicoArc compatibility plugin.",
-          "The plugin launches the installed LicoUp companion runtime through the public Subagent MCP contract and exposes list, probe, delegate, continue, and cancel tools in a real MCP handshake.",
-          "Focused tests, catalog consistency, repository privacy scanning, version governance, and the independent release audit pass without publishing local paths, credentials, account data, or conversation content."
-        ],
-        "evidence": [
-          "Implementation merged: https://github.com/LicoLand/LicoUp-Plugins/pull/6",
-          "Version governance passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790346151",
-          "Independent release audit passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790376902",
-          "Focused verification passed: manifest validation, four runtime tests, five-tool MCP handshake, catalog consistency, and repository privacy workflow."
-        ]
-      }
-    ],
-    "blockers": []
-  },
-  "releases": [],
+  "nextRelease": null,
+  "releases": [
+    {
+      "version": "0.1.0",
+      "classification": "initial",
+      "status": "ready",
+      "targetDate": null,
+      "integrationBranch": "main",
+      "features": [
+        {
+          "id": "codex-local-subagent-delegation",
+          "type": "capability",
+          "title": "Expose LicoUp local subordinate agents as a Codex plugin",
+          "status": "accepted",
+          "pullRequest": "https://github.com/LicoLand/LicoUp-Plugins/pull/6",
+          "dependsOn": [],
+          "risk": "medium",
+          "acceptance": [
+            "The repository contains one valid lico-up-codex marketplace package at 0.1.0 and removes the retired LicoArc compatibility plugin.",
+            "The plugin launches the installed LicoUp companion runtime through the public Subagent MCP contract and exposes list, probe, delegate, continue, and cancel tools in a real MCP handshake.",
+            "Focused tests, catalog consistency, repository privacy scanning, version governance, and the independent release audit pass without publishing local paths, credentials, account data, or conversation content."
+          ],
+          "evidence": [
+            "Implementation merged: https://github.com/LicoLand/LicoUp-Plugins/pull/6",
+            "Version governance passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790346151",
+            "Independent release audit passed: https://github.com/LicoLand/LicoUp-Plugins/actions/runs/30790376902",
+            "Focused verification passed: manifest validation, four runtime tests, five-tool MCP handshake, catalog consistency, and repository privacy workflow."
+          ]
+        }
+      ],
+      "blockers": [],
+      "releasedAt": "2026-08-03T06:34:10Z",
+      "releaseUrl": "https://github.com/LicoLand/LicoUp-Plugins/releases/tag/v0.1.0"
+    }
+  ],
   "components": []
 }

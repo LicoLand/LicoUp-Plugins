@@ -1,43 +1,53 @@
-# LicoArc Plugins
+# LicoUp Plugins
 
-Independent Codex plugin marketplace maintained by
-[LicoLand](https://lico.land). The repository name and marketplace namespace
-are intentionally retained for long-term plugin identity stability.
+LicoUp Plugins is the public repository boundary for optional external LicoUp
+integrations. Its durable goal and boundaries are defined in
+[PRODUCT.md](PRODUCT.md), and its vocabulary is defined in
+[CONTEXT.md](CONTEXT.md).
 
-## Ecosystem boundary
+## Current projection
 
-This repository is an independent developer-tool marketplace:
+The marketplace contains one external integration:
 
-- it is not [`Meshrix-Plugins`](https://github.com/LicoLand/Meshrix-Plugins)
-  and does not publish Meshrix runtime plugins;
-- it is not a LicoUp plugin repository or a component of the
-  [LicoUp client](https://licoup.com);
-- it is not the Fabrigent protocol or policy authority, and does not define
-  federation governance published through [licoarc.com](https://licoarc.com).
+| Plugin | Purpose | Host contract |
+| --- | --- | --- |
+| [`lico-up-codex`](plugins/lico-up-codex) | Let Codex discover and coordinate other local agents through LicoUp | [LicoUp Subagent MCP](https://github.com/LicoLand/LicoUp/blob/main/docs/protocols/subagent-mcp.md) |
 
-Each plugin documents its own integration boundary. Installing a marketplace
-plugin does not join a LicoUp network, install a Meshrix extension, or confer
-Fabrigent certification.
+The plugin is a thin Codex integration. Agent scanning, native conversation
+transport, local histories, and execution policy remain owned by the installed
+LicoUp client.
 
-## Marketplace
+See [docs/STATUS.md](docs/STATUS.md) for the separate intent,
+implementation, verification, release, and support states. Catalog presence is
+not evidence that an integration has been packaged, verified, released, or
+supported.
 
-- Catalog: `.agents/plugins/marketplace.json`
-- Display name: **LicoArc Independent Plugins**
-
-Add this directory as a Codex marketplace:
+## Install from a local checkout
 
 ```bash
 codex plugin marketplace add .
+codex plugin add lico-up-codex@licoup-plugins
 ```
 
-## Plugins
+Start a new Codex task after installation so its skill and MCP tools are
+loaded. The current LicoUp application must be installed and provide its
+companion `lico-subagent-mcp` runtime.
 
-| Plugin | Description |
-| --- | --- |
-| [`licoarc-for-codex`](./licoarc-for-codex) | Independent Codex sub-agent bridge using the retained LicoArc plugin namespace. |
+## Boundary projection
 
-## Current LicoLand projects
+This repository owns optional external integration source and catalog entries.
+It does not own the LicoUp client, endpoint encryption, key custody, local
+approval, persistent client state, built-in client capabilities, or Lico Arc
+Protocol governance. It is separate from
+[`Meshrix-Plugins`](https://github.com/LicoLand/Meshrix-Plugins).
 
-- [Meshrix](https://meshrix.io): agent behavior governance platform
-- [LicoUp](https://licoup.com): human-agent collaboration client
-- [Fabrigent / LicoArc](https://licoarc.com): federation protocol and governance authority
+An integration must enter through public LicoUp approval and host boundaries.
+Installing one would not join a LicoUp network, install a Meshrix extension,
+or confer Lico Arc Protocol certification.
+
+## Documentation
+
+- [Product goal and boundaries](PRODUCT.md)
+- [Ubiquitous language](CONTEXT.md)
+- [Documentation index](docs/README.md)
+- [Current five-dimension status](docs/STATUS.md)

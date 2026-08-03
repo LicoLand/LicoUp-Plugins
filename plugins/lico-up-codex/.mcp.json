@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "lico-up-subagents": {
+      "command": "node",
+      "args": [
+        "./scripts/start.mjs"
+      ],
+      "cwd": ".",
+      "tool_timeout_sec": 1800
+    }
+  }
+}

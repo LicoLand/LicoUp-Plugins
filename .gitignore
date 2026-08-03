@@ -2,3 +2,6 @@
 # Agent entrypoints are retired; agent guidance lives in lico-dev skills.
 AGENTS.md
 AGENT.md
+
+# Local planning material is never part of the public source candidate.
+/docs/plans/

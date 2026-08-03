@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "licoarc-subagent": {
-      "command": "node",
-      "args": ["./mcp/server.mjs"],
-      "cwd": "."
-    }
-  }
-}

@@ -38,12 +38,11 @@ companion `lico-subagent-mcp` runtime.
 This repository owns optional external integration source and catalog entries.
 It does not own the LicoUp client, endpoint encryption, key custody, local
 approval, persistent client state, built-in client capabilities, or Lico Arc
-Protocol governance. It is separate from
-[`Meshrix-Plugins`](https://github.com/LicoLand/Meshrix-Plugins).
+Protocol governance.
 
 An integration must enter through public LicoUp approval and host boundaries.
-Installing one would not join a LicoUp network, install a Meshrix extension,
-or confer Lico Arc Protocol certification.
+Installing one would not join a LicoUp network or confer Lico Arc Protocol
+certification.
 
 ## Documentation
 

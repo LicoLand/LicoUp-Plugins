@@ -33,7 +33,6 @@ This repository does not own:
   persistent client state;
 - built-in LicoUp capabilities or client release evidence;
 - Lico Arc Protocol federation rules, certification, or conformance;
-- Meshrix plugins or Meshrix execution policy;
 - compatibility shells for retired products or contracts.
 
 Current facts are maintained in [docs/STATUS.md](docs/STATUS.md).

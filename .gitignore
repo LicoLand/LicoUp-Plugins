@@ -5,3 +5,6 @@ AGENT.md
 
 # Local planning material is never part of the public source candidate.
 /docs/plans/
+
+# Private local audit evidence and reports. Never publish.
+/.general-auditor/local/
